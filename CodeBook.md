@@ -1,4 +1,4 @@
-Descripcion del Codigo
+Descripcion del Codigo - (Idioma Español - Language Spanish)
 
 Este libro de códigos describe las variables, los datos y cualquier transformación o trabajo que se realice para limpiar los datos, segun el objetivo propuesto por el curso para esta tarea.
 
@@ -67,10 +67,14 @@ Fusionar los conjuntos de entrenamiento y prueba para crear un conjunto de datos
 Extraer solo las mediciones de la media y la desviación estándar para cada medición.
 
      El ID de los data frame se usan con col_names para almacenar los nombres de las 561 variables del archivo 'features.txt' de la carpeta.
+     
      La función grepl () se utiliza para seleccionar variables que incluyen las funciones mean () o std () en sus nombres (columna V2 del data frame: col_names), queda guardado en variables selec_mean, selec_sd
-     Como resultado, el data frame sel_names se usa para almacenar las variables relacionadas con la media y la desviación estándar (se ocupa rbind de las 2 selecciones anteriores)
+     
+     Como resultado, el data frame sel_names se usa para almacenar las variables relacionadas con la media y la desviación estándar (se ocupa rbind de las 2 selecciones anteriores).
+     
      Se agrega una columna V3 ("V" + identificación de las variables seleccionadas) a los nombres de los data frame para permitir una extracción, se ocupa la funcion select().
-     El dataframe sel_data se usa para almacenar los datos seleccionados (es decir, media y estándar) a partir del dataframe data_all creado en la parte 1.
+     
+     El dataframe sel_data se usa para almacenar los datos seleccionados (es decir, media y estándar) a partir del dataframe y_all creado en la parte 1.
      
 Utilizar nombres descriptivos de actividades para nombrar las actividades en el conjunto de datos:
 
