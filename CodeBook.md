@@ -1,4 +1,4 @@
-Descripcion del Codigo - (Idioma Español - Language Spanish)
+# Descripcion del Codigo - (Idioma Español - Language Spanish)
 
 Este libro de códigos describe las variables, los datos y cualquier transformación o trabajo que se realice para limpiar los datos, segun el objetivo propuesto por el curso para esta tarea.
 
@@ -33,7 +33,7 @@ Que incluye la carpeta UCI HAR Dataset:
   
   Cada vector de características es un vector o fila en el archivo de texto.
   
-  Objetivo del Proyecto - Pasos a seguir:
+  # Objetivo del Proyecto - Pasos a seguir:
   
   Los requisitos para el proyecto son los siguientes:
   
@@ -48,7 +48,7 @@ Que incluye la carpeta UCI HAR Dataset:
      Del conjunto de datos en el paso 4,
      5. Crear un segundo conjunto de datos ordenado independiente con el promedio de cada variable para cada actividad y cada sujeto.
      
-Pasos del Codigo - run_analysis.R
+# Pasos del Codigo - run_analysis.R
 
 Fusionar los conjuntos de entrenamiento y prueba para crear un conjunto de datos:
 
